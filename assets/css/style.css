@@ -72,6 +72,7 @@
     gap: 25px;
   }
 
+  /* Yellow Box */
   .yellow-box{
     width: 50%;
     display: flex;
@@ -80,6 +81,7 @@
     color: #3C2B04; 
     padding: 24px;
     gap: 14px;
+    border-radius: 15px 0px 0px 0px;
   }
   
   .yellow-box h1 {
@@ -93,6 +95,7 @@
     /* border: 2px solid black; */
   }
   
+  /* Violet Box */
   .violet-box{
     width: 50%;
     display: flex;
@@ -101,6 +104,7 @@
     color: #281031;
     padding: 24px;
     gap: 14px;
+    border-radius: 0px 15px 0px 0px;
   }
   
   .violet-box h1 {
@@ -114,6 +118,7 @@
     /* border: 2px solid black; */
   }
   
+  /* Pink Box */
   .pink-box{
     display: flex;
     flex-direction: column;
@@ -121,6 +126,7 @@
     color: #9C2356;
     padding: 24px;
     gap: 14px;
+    border-radius: 0px 0px 15px 15px;
   }
   
   .pink-box h1 {
