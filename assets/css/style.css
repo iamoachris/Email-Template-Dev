@@ -1,0 +1,136 @@
+/* Assets */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Images */
+.head-img,
+.foot-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 680px;
+  height: 200px;
+  background-position: center;
+}
+
+.head-img{
+    background-image: url(../img/head-img.png);
+}
+
+.foot-img {
+  background-image: url(../img/foot-img.png);
+}
+
+
+/* Text */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  
+.main-page a {
+    text-decoration: none;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    padding: 20px 30px;
+    gap: 25px;
+    /* border: 2px solid rgba(0, 0, 0, 0.2); */
+  }
+
+  .sect{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* border: 2px solid red; */
+  }
+  
+  .sect-color{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    /* border: 2px solid red; */
+  }
+
+  .split-box{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid rgba(0, 0, 0, 0.2); */
+    gap: 25px;
+  }
+
+  .yellow-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5DD;
+    color: #3C2B04; 
+    padding: 24px;
+    gap: 14px;
+  }
+  
+  .yellow-box h1 {
+    color: #785608;
+  }
+  
+  .yellow-box .head_logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  
+  .violet-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F2FC;
+    color: #281031;
+    padding: 24px;
+    gap: 14px;
+  }
+  
+  .violet-box h1 {
+    color: #501F61;
+  }
+  
+  .violet-box .head_logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  
+  .pink-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEFF6;
+    color: #9C2356;
+    padding: 24px;
+    gap: 14px;
+  }
+  
+  .pink-box h1 {
+    color: #9C2356;
+  }
+  
+  .pink-box .head_logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 2px solid black; */
+  }
+  
