@@ -5,22 +5,28 @@
 * {
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
+
   font-family: "Outfit", sans-serif;
 }
+
 
 /* Images */
 .head-img,
 .foot-img {
+  width: 90vw;
+  height: 26vw;
+
   background-size: contain;
-  background-repeat: no-repeat;
-  width: 680px;
-  height: 200px;
   background-position: center;
+  background-repeat: no-repeat;
+
+  /* background-color: #123292; */
 }
 
-.head-img{
-    background-image: url(../img/head-img.png);
+.head-img {
+  background-image: url(../img/head-img.png);
 }
 
 .foot-img {
@@ -30,114 +36,150 @@
 
 /* Text */
 .main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    padding: 50px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  
-.main-page a {
-    text-decoration: none;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 680px;
-    padding: 30px 20px 50px 20px;
-    gap: 25px;
-    /* border: 2px solid rgba(0, 0, 0, 0.2); */
-  }
+  /* Main by default scales its dimension based on the content */
+  width: 100vw;
 
-  .sect{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    /* border: 2px solid red; */
-  }
-  
-  .sect-color{
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    /* border: 2px solid red; */
-  }
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+}
 
-  .split-box{
-    width: 100%;
-    display: flex;
-    /* border: 2px solid rgba(0, 0, 0, 0.2); */
-    gap: 25px;
-  }
+.main a {
+  color: #123292;
+  text-decoration: none;
+}
 
-  /* Yellow Box */
-  .yellow-box{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF5DD;
-    color: #3C2B04; 
-    padding: 24px;
-    gap: 14px;
-    border-radius: 15px 0px 0px 0px;
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 90vw;
+
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+}
+
+.sect,
+.sect-t,
+.sect-b {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1vw;
+  padding: 2vw;
+  gap: 2vh;
+
+  /* color: #3C2B04;  */
+  color: hsl(0, 0, 0);
+  background-color: hsla(0, 0%, 90%, 0.5);
+
+  /* border: 2px solid red; */
+}
+
+.sect-t {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.sect-b {
+  border-radius: 0px 0px 15px 15px;
+}
+
+/* Colored Boxes */
+.sect-color {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  /* border: 2px solid red; */
+}
+
+.split-box {
+  display: flex;
+
+  /* Smaller Screen */
+  /* flex-direction: column; */
+
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+}
+
+/* Yellow Box */
+.yellow-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  margin: 1vw;
+  padding: 2vw;
+  gap: 2vh;
+
+  color: #3c2b04;
+  background-color: #fff5dd;
+}
+
+.yellow-box .head_logo {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  /* border: 2px solid black; */
+}
+
+.yellow-box h1 {
+  color: #785608;
+}
+
+/* Violet Box */
+.violet-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  margin: 1vw;
+  padding: 2vw;
+  gap: 2vh;
+
+  color: #281031;
+  background-color: #f9f2fc;
+}
+
+.violet-box .head_logo {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  /* border: 2px solid black; */
+}
+
+.violet-box h1 {
+  color: #501f61;
+}
+
+/* Pink Box */
+.pink-box {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1vw;
+  padding: 2vw;
+  gap: 2vh;
+
+  color: #9c2356;
+  background-color: #ffeff6;
+}
+
+.pink-box .head_logo {
+  display: flex;
+  align-items: center;
   
-  .yellow-box h1 {
-    color: #785608;
-  }
+  gap: 15px;
   
-  .yellow-box .head_logo{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    /* border: 2px solid black; */
-  }
-  
-  /* Violet Box */
-  .violet-box{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    background-color: #F9F2FC;
-    color: #281031;
-    padding: 24px;
-    gap: 14px;
-    border-radius: 0px 15px 0px 0px;
-  }
-  
-  .violet-box h1 {
-    color: #501F61;
-  }
-  
-  .violet-box .head_logo{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    /* border: 2px solid black; */
-  }
-  
-  /* Pink Box */
-  .pink-box{
-    display: flex;
-    flex-direction: column;
-    background-color: #FFEFF6;
-    color: #9C2356;
-    padding: 24px;
-    gap: 14px;
-    border-radius: 0px 0px 15px 15px;
-  }
-  
-  .pink-box h1 {
-    color: #9C2356;
-  }
-  
-  .pink-box .head_logo{
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    /* border: 2px solid black; */
-  }
-  
+  /* border: 2px solid black; */
+}
+
+.pink-box h1 {
+  color: #9c2356;
+}
