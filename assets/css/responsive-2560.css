@@ -56,6 +56,9 @@
     padding: 5vw;
   }
 
+  .yellow-box .head_logo img{
+    width: 3.5vw;
+  }
   .pink-box {
     width: unset;
     margin-bottom: 2vw;
