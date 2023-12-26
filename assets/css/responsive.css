@@ -1,18 +1,18 @@
 
 @media (max-width: 801px) {
 
-  font-size: 12px;
-}
+    p{
+        font-size: 12px;
+    }
 
-h1{
-  font-size: 24px;
-}
-
-h2{
-  font-size: 24px;
-}
-
-p{
+    h1{
+      font-size: 24px;
+    }
+    
+    h2{
+      font-size: 24px;
+    }
+    
     .main{
         margin: 5vw 0vw;
         width: 100vw;
