@@ -192,7 +192,7 @@ h3{
   display: flex;
   align-items: center;
 
-  gap: 15px;
+  gap: x;
 
   /* border: 2px solid black; */
 }
