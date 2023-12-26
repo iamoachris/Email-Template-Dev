@@ -65,11 +65,6 @@
     padding: 5vw;
 }
 
-.split-box {
-    display: flex;
-    flex-direction: column;
-}
-
 .yellow-box {
     width: unset;
     margin: 2vw; 
