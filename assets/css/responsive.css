@@ -25,6 +25,7 @@
 .split-box {
     display: flex;
     flex-direction: column;
+    
 }
 
 .yellow-box {
