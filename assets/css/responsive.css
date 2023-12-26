@@ -68,12 +68,12 @@
     width: unset;
     margin: 2vw; 
     padding: 5vw;
-    padding: 5vw;
-}
-
-.violet-box {
+  }
+  
+  .violet-box {
     width: unset;
     margin: 2vw; 
+    padding: 5vw;
 }
 
 .pink-box {
