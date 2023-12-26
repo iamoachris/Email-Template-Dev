@@ -23,6 +23,11 @@
     padding: 5vw;
 }
 
+.sect-t h1{
+  font-size: px;
+  font-weight: 300;
+}
+
 .split-box {
     display: flex;
     flex-direction: column;
