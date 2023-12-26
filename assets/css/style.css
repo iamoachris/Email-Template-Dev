@@ -11,7 +11,6 @@
   font-family: "Outfit", sans-serif;
 }
 
-
 /* Images */
 .head-img,
 .foot-img {
@@ -21,8 +20,6 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .head-img {
@@ -32,7 +29,6 @@
 .foot-img {
   background-image: url(../img/foot-img.png);
 }
-
 
 /* Text */
 .main {
@@ -176,9 +172,9 @@
 .pink-box .head_logo {
   display: flex;
   align-items: center;
-  
+
   gap: 15px;
-  
+
   /* border: 2px solid black; */
 }
 
