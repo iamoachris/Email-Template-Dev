@@ -159,8 +159,8 @@
   display: flex;
   flex-direction: column;
 
-  margin: 1vw;
-  padding: ;
+  margin: 1vw 2vw 2vw 2vw;
+  padding: 5vw;
   gap: 2vh;
 
   color: #9c2356;
