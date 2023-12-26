@@ -1,0 +1,64 @@
+
+@media (max-width: 1281px) {
+
+    *{
+      font-size: 18px;
+  }
+  
+  h1{
+    font-size: 44px;
+  }
+  
+  h2{
+    font-size: 36px;
+  }
+  
+  h3{
+    font-size: 28px;
+  }
+  
+      .main{
+          margin: 5vw 0vw;
+          width: 100vw;
+      }
+  
+    .content {
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+      width: 90vw;
+    }
+  
+    .sect,
+    .sect-t,
+    .sect-b {
+      margin: 2vw; 
+      padding: 5vw;
+    }
+   
+    .sect-t h1{
+      font-size: 60px;
+    }
+    .split-box{
+      display: flex;
+      width: 100%;
+    }
+    .yellow-box {
+      margin-top: 2vw; 
+      margin-left: 2vw; 
+      padding: 5vw;
+    }
+    
+    .violet-box {
+      margin-top: 2vw; 
+      margin-right: 2vw; 
+      padding: 5vw;
+    }
+    
+    .pink-box {
+      width: unset;
+      margin-bottom: 2vw; 
+      margin-left: 2vw; 
+      margin-right: 2vw; 
+      padding: 5vw;
+    }
+  }
