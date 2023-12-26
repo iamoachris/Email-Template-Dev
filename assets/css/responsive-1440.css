@@ -1,5 +1,5 @@
 
-@media (min) {
+@media (min-width) {
 
     *{
       font-size: 18px;
