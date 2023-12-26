@@ -107,10 +107,9 @@
   width: 50%;
 
   margin: 2vw 1vw 1vw 2vw;
-  margin: 2vw 1vw 1vw 2vw;
   padding: 2vw;
   gap: 2vh;
-
+  
   color: #3c2b04;
   background-color: #fff5dd;
 }
@@ -118,9 +117,9 @@
 .yellow-box .head_logo {
   display: flex;
   align-items: center;
-
+  
   gap: 15px;
-
+  
   /* border: 2px solid black; */
 }
 
@@ -133,8 +132,9 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-
+  
   margin: 1vw;
+  margin: 2vw 1vw 1vw 2vw;
   padding: 2vw;
   gap: 2vh;
 
