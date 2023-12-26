@@ -9,7 +9,6 @@
   box-sizing: border-box;
 
   font-family: "Outfit", sans-serif;
-  font-size: 20px;
 }
 
 h1{
@@ -21,6 +20,7 @@ h2{
 }
 
 p{
+  font-size: 20px;
 }
 
 /* Images */
