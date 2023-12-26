@@ -1,0 +1,43 @@
+@media (max-width: 440px) {
+
+    body{
+        font-size: 12px;
+    }
+
+    .main{
+        margin: 5vw 0vw;
+    }
+
+  .content {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 90vw;
+  }
+
+  .sect,
+  .sect-t,
+  .sect-b {
+    /* margin: 2vw; */
+    padding: 5vw;
+}
+
+.split-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-box {
+    width: unset;
+    margin: 2vw;
+}
+
+.violet-box {
+    width: unset;
+    margin: 2vw;
+}
+
+.pink-box {
+    width: unset;
+    margin: 2vw;
+  }
+}
