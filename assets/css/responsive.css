@@ -1,5 +1,9 @@
 
-@media (max-width: 801px) {    
+@media (max-width: 801px) {
+
+    *{
+        font-size: 12px;
+    }
 
     h1{
       font-size: 24px;
@@ -9,10 +13,6 @@
       font-size: 24px;
     }
     
-    p{
-      font-size: 12px;
-  }
-  
     .main{
         margin: 5vw 0vw;
         width: 100vw;
