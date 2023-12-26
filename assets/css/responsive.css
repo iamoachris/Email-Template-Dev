@@ -96,7 +96,10 @@ h3{
     margin: 2vw; 
     padding: 5vw;
   }
-  
+ 
+  h1{
+    font-size: 44px;
+  }
   .split-box{
     display: flex;
     width: 100%;
