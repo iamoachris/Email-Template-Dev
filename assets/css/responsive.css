@@ -62,12 +62,12 @@
   .sect-b {
     margin: 2vw; 
     padding: 5vw;
-    padding: 5vw;
-}
-
-.yellow-box {
+  }
+  
+  .yellow-box {
     width: unset;
     margin: 2vw; 
+    padding: 5vw;
 }
 
 .violet-box {
