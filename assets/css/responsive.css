@@ -24,7 +24,8 @@
 
 .split-box {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
+    
 }
 
 .yellow-box {
