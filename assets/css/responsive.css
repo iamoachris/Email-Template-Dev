@@ -74,10 +74,11 @@
     width: unset;
     margin: 2vw; 
     padding: 5vw;
-}
-
-.pink-box {
+  }
+  
+  .pink-box {
     width: unset;
     margin: 2vw; 
+    padding: 5vw;
   }
 }
