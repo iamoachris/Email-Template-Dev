@@ -69,14 +69,14 @@
     width: 100%;
   }
   .yellow-box {
-    width: unset;
+    width: 50%;
     margin-top: 2vw; 
     margin-left: 2vw; 
     padding: 5vw;
   }
   
   .violet-box {
-    width: unset;
+    width: 50%;
     margin-top: 2vw; 
     margin-right: 2vw; 
     padding: 5vw;
