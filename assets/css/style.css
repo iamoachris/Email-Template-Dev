@@ -95,7 +95,7 @@
 
 .split-box {
   display: flex;
-  width: 100vw;
+  width: 100%;
 
   /* Smaller Screen */
   /* flex-direction: column; */
