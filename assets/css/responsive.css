@@ -17,7 +17,7 @@
   .sect,
   .sect-t,
   .sect-b {
-    /* margin: 2vw; */
+    margin: 2vw 0vw;
     padding: 5vw;
 }
 
@@ -28,16 +28,16 @@
 
 .yellow-box {
     width: unset;
-    margin: 2vw;
+    margin: 2vw 0vw;
 }
 
 .violet-box {
     width: unset;
-    margin: 2vw;
+    margin: 2vw 0vw;
 }
 
 .pink-box {
     width: unset;
-    margin: 2vw;
+    margin: 2vw 0vw;
   }
 }
