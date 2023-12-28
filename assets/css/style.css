@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
 
-  width: 100vw;
+  /* width: 100vw; */
   box-sizing: border-box;
 
   font-family: "Outfit", sans-serif;
@@ -48,7 +48,7 @@ h3{
 }
 
 .foot-img {
-  background-image: url(assets/img/foot-img.png);
+  background-image: url(/assets/img/foot-img.png);
 }
 
 
