@@ -29,7 +29,7 @@
   .sect,
   .sect-t,
   .sect-b {
-    /* margin: 2vw; */
+    margin: 2vw;
     padding: 5vw;
   }
 
@@ -41,8 +41,8 @@
     width: 100%;
   }
   .yellow-box {
-    /* margin-top: 2vw; */
-    /* margin-left: 2vw; */
+    margin-top: 2vw;
+    margin-left: 2vw;
     padding: 5vw;
   }
 
@@ -51,8 +51,8 @@
   }
 
   .violet-box {
-    /* margin-top: 2vw; */
-    /* margin-right: 2vw; */
+    margin-top: 2vw;
+    margin-right: 2vw;
     padding: 5vw;
   }
 
@@ -62,8 +62,8 @@
 
   .pink-box {
     width: unset;
-    /* margin-bottom: 2vw; */
-    /* margin-left: 2vw; */
+    margin-bottom: 2vw;
+    margin-left: 2vw;
     margin-right: 2vw;
     padding: 5vw;
   }
